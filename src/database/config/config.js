@@ -28,10 +28,10 @@ module.exports = {
     },
 
     "production": {
-        "host": process.env.DB_HOST,
-        "username": process.env.DB_USERNAME,
-        "password": process.env.DB_PASSWORD,
-        "database": process.env.DB_SCHEMA,
+        "host": "us-cdbr-east-02.cleardb.com",
+        "username": "b70cf39d90f5a4",
+        "password": "e6acd45b",
+        "database": "heroku_2c4fa8c0ed84677",
         "migrationStorageTableName": "sequelize_meta",
         "dialect": "mysql",
         "operatorsAliases": 0,
