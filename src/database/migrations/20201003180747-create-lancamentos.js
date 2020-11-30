@@ -55,15 +55,21 @@ module.exports = {
       },
 
       created_at: {
+        // allowNull: false,
+        // defaultValue: Sequelize.fn("NOW"),
+        // type: Sequelize.DATE,
+        type: Sequelize.DATEONLY,
         allowNull: false,
-        defaultValue: Sequelize.fn("NOW"),
-        type: Sequelize.DATE,
+        defaultValue: Sequelize.NOW
       },
 
       updated_at: {
+        // allowNull: false,
+        // defaultValue: Sequelize.fn("NOW"),
+        // type: Sequelize.DATE,
+        type: Sequelize.DATEONLY,
         allowNull: false,
-        defaultValue: Sequelize.fn("NOW"),
-        type: Sequelize.DATE,
+        defaultValue: Sequelize.NOW
       },
     });
   },
