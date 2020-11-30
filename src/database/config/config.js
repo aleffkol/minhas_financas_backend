@@ -41,8 +41,8 @@ module.exports = {
         "define": {
             "underscored": true,
             "underscoredAll": true,
-            "createdAt": "created_at",
-            "updatedAt": "updated_at"
+            "createdAt": 0,
+            "updatedAt": 0
         }
     }
 
